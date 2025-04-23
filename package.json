@@ -1,0 +1,28 @@
+{
+  "name": "mogumo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "loischen68 <a8283626@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "deploy:commands": "nodemon deploy-commands.js",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dayjs": "^1.11.13",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "googleapis": "^148.0.0",
+    "i18n-js": "^4.5.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0",
+    "husky": "^9.1.7",
+    "nodemon": "^3.1.9",
+    "prettier": "3.4.2"
+  }
+}
