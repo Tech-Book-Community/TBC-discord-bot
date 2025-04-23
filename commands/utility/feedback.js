@@ -28,7 +28,7 @@ module.exports = {
       },
     });
 
-    console.log('locale', i18n.locale);
+    i18n.locale = interaction.locale.includes('en') ? 'en' : 'zh-tw';
 
     const modal = new ModalBuilder()
       .setCustomId('feedback_form')
